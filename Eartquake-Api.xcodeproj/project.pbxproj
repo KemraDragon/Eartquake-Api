@@ -14,6 +14,15 @@
 		0A5F1CCE2D397467007828D3 /* Eartquake_ApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F1CCD2D397467007828D3 /* Eartquake_ApiTests.swift */; };
 		0A5F1CD82D397467007828D3 /* Eartquake_ApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F1CD72D397467007828D3 /* Eartquake_ApiUITests.swift */; };
 		0A5F1CDA2D397467007828D3 /* Eartquake_ApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F1CD92D397467007828D3 /* Eartquake_ApiUITestsLaunchTests.swift */; };
+		0AD23D7E2D3985A20025781A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D7D2D3985A20025781A /* User.swift */; };
+		0AD23D802D3986520025781A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D7F2D3986520025781A /* AuthService.swift */; };
+		0AD23D822D3988DD0025781A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D812D3988DD0025781A /* LoginViewModel.swift */; };
+		0AD23D842D398EF60025781A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D832D398EF60025781A /* LoginView.swift */; };
+		0AD23D862D3990DF0025781A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D852D3990DF0025781A /* RegisterViewModel.swift */; };
+		0AD23D882D3991940025781A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD23D872D3991940025781A /* RegisterView.swift */; };
+		94943FD419D9BBD09F523235 /* Pods_Eartquake_Api.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5812224B62F2362007C5342 /* Pods_Eartquake_Api.framework */; };
+		ABB55EE30A788CFC0666FBB9 /* Pods_Eartquake_ApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA664088D1FDFA7130115B9E /* Pods_Eartquake_ApiTests.framework */; };
+		BD9718B63A289DE4061F940F /* Pods_Eartquake_ApiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E328FDDAF28D60DDC06D92A /* Pods_Eartquake_ApiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018C44388BA10D87E01135E2 /* Pods-Eartquake-ApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-ApiUITests.release.xcconfig"; path = "Target Support Files/Pods-Eartquake-ApiUITests/Pods-Eartquake-ApiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0A5F1CB92D397464007828D3 /* Eartquake-Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eartquake-Api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F1CBC2D397464007828D3 /* Eartquake_ApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eartquake_ApiApp.swift; sourceTree = "<group>"; };
 		0A5F1CBE2D397464007828D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,20 @@
 		0A5F1CD32D397467007828D3 /* Eartquake-ApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eartquake-ApiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F1CD72D397467007828D3 /* Eartquake_ApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eartquake_ApiUITests.swift; sourceTree = "<group>"; };
 		0A5F1CD92D397467007828D3 /* Eartquake_ApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eartquake_ApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AD23D7D2D3985A20025781A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0AD23D7F2D3986520025781A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0AD23D812D3988DD0025781A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0AD23D832D398EF60025781A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0AD23D852D3990DF0025781A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		0AD23D872D3991940025781A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4589AD30AFD8C8F95D2218E2 /* Pods-Eartquake-ApiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-ApiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Eartquake-ApiUITests/Pods-Eartquake-ApiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BFA8EB221581880CB276E48 /* Pods-Eartquake-ApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-ApiTests.debug.xcconfig"; path = "Target Support Files/Pods-Eartquake-ApiTests/Pods-Eartquake-ApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E328FDDAF28D60DDC06D92A /* Pods_Eartquake_ApiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eartquake_ApiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809104B4A21AE0DABFB00161 /* Pods-Eartquake-ApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-ApiTests.release.xcconfig"; path = "Target Support Files/Pods-Eartquake-ApiTests/Pods-Eartquake-ApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		980179A416140F5675651251 /* Pods-Eartquake-Api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-Api.debug.xcconfig"; path = "Target Support Files/Pods-Eartquake-Api/Pods-Eartquake-Api.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC633CF60282C6905A19488 /* Pods-Eartquake-Api.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-Api.release.xcconfig"; path = "Target Support Files/Pods-Eartquake-Api/Pods-Eartquake-Api.release.xcconfig"; sourceTree = "<group>"; };
+		A5812224B62F2362007C5342 /* Pods_Eartquake_Api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eartquake_Api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA664088D1FDFA7130115B9E /* Pods_Eartquake_ApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eartquake_ApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94943FD419D9BBD09F523235 /* Pods_Eartquake_Api.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB55EE30A788CFC0666FBB9 /* Pods_Eartquake_ApiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +91,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9718B63A289DE4061F940F /* Pods_Eartquake_ApiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0539D57667C070B1B60FA801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5812224B62F2362007C5342 /* Pods_Eartquake_Api.framework */,
+				EA664088D1FDFA7130115B9E /* Pods_Eartquake_ApiTests.framework */,
+				6E328FDDAF28D60DDC06D92A /* Pods_Eartquake_ApiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0A5F1CB02D397464007828D3 = {
 			isa = PBXGroup;
 			children = (
+				0AD23D7C2D3984580025781A /* Core */,
+				0AD23D7B2D3984440025781A /* Services */,
+				0AD23D7A2D3984360025781A /* Models */,
+				0AD23D792D3984100025781A /* ViewModels */,
+				0AD23D782D3983D30025781A /* View */,
 				0A5F1CBB2D397464007828D3 /* Eartquake-Api */,
 				0A5F1CCC2D397467007828D3 /* Eartquake-ApiTests */,
 				0A5F1CD62D397467007828D3 /* Eartquake-ApiUITests */,
 				0A5F1CBA2D397464007828D3 /* Products */,
+				9B2FBE5C1B50B67CBC4775F8 /* Pods */,
+				0539D57667C070B1B60FA801 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				0A5F1CBC2D397464007828D3 /* Eartquake_ApiApp.swift */,
-				0A5F1CBE2D397464007828D3 /* ContentView.swift */,
 				0A5F1CC02D397466007828D3 /* Assets.xcassets */,
 				0A5F1CC22D397466007828D3 /* Preview Content */,
 			);
@@ -127,6 +170,62 @@
 			path = "Eartquake-ApiUITests";
 			sourceTree = "<group>";
 		};
+		0AD23D782D3983D30025781A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A5F1CBE2D397464007828D3 /* ContentView.swift */,
+				0AD23D832D398EF60025781A /* LoginView.swift */,
+				0AD23D872D3991940025781A /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AD23D792D3984100025781A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0AD23D812D3988DD0025781A /* LoginViewModel.swift */,
+				0AD23D852D3990DF0025781A /* RegisterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0AD23D7A2D3984360025781A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AD23D7D2D3985A20025781A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0AD23D7B2D3984440025781A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0AD23D7F2D3986520025781A /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0AD23D7C2D3984580025781A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9B2FBE5C1B50B67CBC4775F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980179A416140F5675651251 /* Pods-Eartquake-Api.debug.xcconfig */,
+				9BC633CF60282C6905A19488 /* Pods-Eartquake-Api.release.xcconfig */,
+				5BFA8EB221581880CB276E48 /* Pods-Eartquake-ApiTests.debug.xcconfig */,
+				809104B4A21AE0DABFB00161 /* Pods-Eartquake-ApiTests.release.xcconfig */,
+				4589AD30AFD8C8F95D2218E2 /* Pods-Eartquake-ApiUITests.debug.xcconfig */,
+				018C44388BA10D87E01135E2 /* Pods-Eartquake-ApiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5F1CDD2D397467007828D3 /* Build configuration list for PBXNativeTarget "Eartquake-Api" */;
 			buildPhases = (
+				179D449C2865CEFD43DAA738 /* [CP] Check Pods Manifest.lock */,
 				0A5F1CB52D397464007828D3 /* Sources */,
 				0A5F1CB62D397464007828D3 /* Frameworks */,
 				0A5F1CB72D397464007828D3 /* Resources */,
+				AEAE1FEA47F680F260E89DF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5F1CE02D397467007828D3 /* Build configuration list for PBXNativeTarget "Eartquake-ApiTests" */;
 			buildPhases = (
+				C24CA8C00EEE8B2FE0743ACD /* [CP] Check Pods Manifest.lock */,
 				0A5F1CC52D397467007828D3 /* Sources */,
 				0A5F1CC62D397467007828D3 /* Frameworks */,
 				0A5F1CC72D397467007828D3 /* Resources */,
@@ -169,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5F1CE32D397467007828D3 /* Build configuration list for PBXNativeTarget "Eartquake-ApiUITests" */;
 			buildPhases = (
+				11C34B425AE1A1EDED56C99E /* [CP] Check Pods Manifest.lock */,
 				0A5F1CCF2D397467007828D3 /* Sources */,
 				0A5F1CD02D397467007828D3 /* Frameworks */,
 				0A5F1CD12D397467007828D3 /* Resources */,
@@ -252,13 +355,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11C34B425AE1A1EDED56C99E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eartquake-ApiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		179D449C2865CEFD43DAA738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eartquake-Api-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAE1FEA47F680F260E89DF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eartquake-Api/Pods-Eartquake-Api-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eartquake-Api/Pods-Eartquake-Api-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eartquake-Api/Pods-Eartquake-Api-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24CA8C00EEE8B2FE0743ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eartquake-ApiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A5F1CB52D397464007828D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD23D842D398EF60025781A /* LoginView.swift in Sources */,
 				0A5F1CBF2D397464007828D3 /* ContentView.swift in Sources */,
+				0AD23D862D3990DF0025781A /* RegisterViewModel.swift in Sources */,
 				0A5F1CBD2D397464007828D3 /* Eartquake_ApiApp.swift in Sources */,
+				0AD23D7E2D3985A20025781A /* User.swift in Sources */,
+				0AD23D882D3991940025781A /* RegisterView.swift in Sources */,
+				0AD23D822D3988DD0025781A /* LoginViewModel.swift in Sources */,
+				0AD23D802D3986520025781A /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +608,7 @@
 		};
 		0A5F1CDE2D397467007828D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980179A416140F5675651251 /* Pods-Eartquake-Api.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +638,7 @@
 		};
 		0A5F1CDF2D397467007828D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC633CF60282C6905A19488 /* Pods-Eartquake-Api.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +668,7 @@
 		};
 		0A5F1CE12D397467007828D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFA8EB221581880CB276E48 /* Pods-Eartquake-ApiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +693,7 @@
 		};
 		0A5F1CE22D397467007828D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809104B4A21AE0DABFB00161 /* Pods-Eartquake-ApiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +718,7 @@
 		};
 		0A5F1CE42D397467007828D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4589AD30AFD8C8F95D2218E2 /* Pods-Eartquake-ApiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +741,7 @@
 		};
 		0A5F1CE52D397467007828D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018C44388BA10D87E01135E2 /* Pods-Eartquake-ApiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

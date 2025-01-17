@@ -11,7 +11,9 @@ import SwiftUI
 struct Eartquake_ApiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView { // Envuelve la vista inicial en un NavigationView
+                LoginView() // Reemplaza ContentView con LoginView
+            }
         }
     }
 }
