@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A06D4D62D3AE8D500A5633D /* EarthquakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06D4D52D3AE8D500A5633D /* EarthquakeModel.swift */; };
+		0A06D4D82D3AE94A00A5633D /* EarthquakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06D4D72D3AE94A00A5633D /* EarthquakeService.swift */; };
+		0A06D4DA2D3AE9C800A5633D /* EarthquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06D4D92D3AE9C800A5633D /* EarthquakeViewModel.swift */; };
+		0A06D4DC2D3AEFD500A5633D /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06D4DB2D3AEFD500A5633D /* ErrorHandling.swift */; };
+		0A06D4DE2D3AF42300A5633D /* ErrorHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06D4DD2D3AF42300A5633D /* ErrorHandler2.swift */; };
 		0A5F1CBD2D397464007828D3 /* Eartquake_ApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F1CBC2D397464007828D3 /* Eartquake_ApiApp.swift */; };
 		0A5F1CBF2D397464007828D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F1CBE2D397464007828D3 /* ContentView.swift */; };
 		0A5F1CC12D397466007828D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F1CC02D397466007828D3 /* Assets.xcassets */; };
@@ -44,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		018C44388BA10D87E01135E2 /* Pods-Eartquake-ApiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eartquake-ApiUITests.release.xcconfig"; path = "Target Support Files/Pods-Eartquake-ApiUITests/Pods-Eartquake-ApiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0A06D4D52D3AE8D500A5633D /* EarthquakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeModel.swift; sourceTree = "<group>"; };
+		0A06D4D72D3AE94A00A5633D /* EarthquakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeService.swift; sourceTree = "<group>"; };
+		0A06D4D92D3AE9C800A5633D /* EarthquakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeViewModel.swift; sourceTree = "<group>"; };
+		0A06D4DB2D3AEFD500A5633D /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		0A06D4DD2D3AF42300A5633D /* ErrorHandler2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler2.swift; sourceTree = "<group>"; };
 		0A5F1CB92D397464007828D3 /* Eartquake-Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eartquake-Api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F1CBC2D397464007828D3 /* Eartquake_ApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eartquake_ApiApp.swift; sourceTree = "<group>"; };
 		0A5F1CBE2D397464007828D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +195,7 @@
 			children = (
 				0AD23D812D3988DD0025781A /* LoginViewModel.swift */,
 				0AD23D852D3990DF0025781A /* RegisterViewModel.swift */,
+				0A06D4D92D3AE9C800A5633D /* EarthquakeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -193,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				0AD23D7D2D3985A20025781A /* User.swift */,
+				0A06D4D52D3AE8D500A5633D /* EarthquakeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				0AD23D7F2D3986520025781A /* AuthService.swift */,
+				0A06D4D72D3AE94A00A5633D /* EarthquakeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -208,6 +221,8 @@
 		0AD23D7C2D3984580025781A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0A06D4DB2D3AEFD500A5633D /* ErrorHandling.swift */,
+				0A06D4DD2D3AF42300A5633D /* ErrorHandler2.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -222,7 +237,6 @@
 				4589AD30AFD8C8F95D2218E2 /* Pods-Eartquake-ApiUITests.debug.xcconfig */,
 				018C44388BA10D87E01135E2 /* Pods-Eartquake-ApiUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -448,12 +462,17 @@
 			files = (
 				0AD23D842D398EF60025781A /* LoginView.swift in Sources */,
 				0A5F1CBF2D397464007828D3 /* ContentView.swift in Sources */,
+				0A06D4DE2D3AF42300A5633D /* ErrorHandler2.swift in Sources */,
+				0A06D4D82D3AE94A00A5633D /* EarthquakeService.swift in Sources */,
 				0AD23D862D3990DF0025781A /* RegisterViewModel.swift in Sources */,
 				0A5F1CBD2D397464007828D3 /* Eartquake_ApiApp.swift in Sources */,
 				0AD23D7E2D3985A20025781A /* User.swift in Sources */,
 				0AD23D882D3991940025781A /* RegisterView.swift in Sources */,
 				0AD23D822D3988DD0025781A /* LoginViewModel.swift in Sources */,
+				0A06D4DA2D3AE9C800A5633D /* EarthquakeViewModel.swift in Sources */,
+				0A06D4DC2D3AEFD500A5633D /* ErrorHandling.swift in Sources */,
 				0AD23D802D3986520025781A /* AuthService.swift in Sources */,
+				0A06D4D62D3AE8D500A5633D /* EarthquakeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
